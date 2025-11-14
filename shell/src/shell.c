@@ -1,4 +1,3 @@
-// ############## LLM Generated Code Begins ##############
 #include "shell.h"
 #include "cfg.h"
 #include "pipeline.h"
@@ -685,5 +684,3 @@ void completed_processes(void) {
         }
     }
 }
-
-// ############## LLM Generated Code Ends ################

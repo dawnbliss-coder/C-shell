@@ -1,4 +1,3 @@
-// ############## LLM Generated Code Begins ##############
 #include "pipeline.h"
 #include "shell.h"
 #include "cfg.h"
@@ -243,5 +242,3 @@ void execute_command_group(char **args) {
     
     free(new_args);
 }
-
-// ############## LLM Generated Code Ends ################

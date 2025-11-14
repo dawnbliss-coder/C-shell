@@ -1,4 +1,3 @@
-// ############## LLM Generated Code Begins ##############
 #include "shell.h"
 #include "cfg.h"
 #include "pipeline.h"
@@ -112,5 +111,3 @@ int main() {
 
     return 0;
 }
-
-// ############## LLM Generated Code Ends ################

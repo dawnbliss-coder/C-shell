@@ -1,4 +1,3 @@
-// ############## LLM Generated Code Begins ##############
 #ifndef SHELL_H
 #define SHELL_H
 
@@ -67,4 +66,3 @@ void handle_bg(char **args);
 void free_args(char **args);
 
 #endif
-// ############## LLM Generated Code Ends ################

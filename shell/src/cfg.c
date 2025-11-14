@@ -1,4 +1,3 @@
-// ############## LLM Generated Code Begins ##############
 #include "cfg.h" 
 #include <stdio.h>
 #include <stdlib.h>
@@ -256,4 +255,3 @@ char** parse_command(char *input) {
     
     return args;
 }
-//############## LLM Generated Code Ends ################

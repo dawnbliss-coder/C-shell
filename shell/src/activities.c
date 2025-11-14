@@ -1,4 +1,3 @@
-// ############## LLM Generated Code Begins ##############
 #include "shell.h"
 #include <stdio.h>
 #include <string.h>
@@ -53,4 +52,3 @@ void run_activities_builtin(process *processes, int count) {
         printf("[%d] : %s - %s\n", processes[i].pid, processes[i].command, state);
     }
 }
-// ############## LLM Generated Code Ends ################
