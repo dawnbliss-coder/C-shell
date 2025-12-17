@@ -10,7 +10,7 @@
 #include <fcntl.h>
 #include <errno.h>
 #include <sys/stat.h> 
-#include <Kernel/sys/fcntl.h>
+#include <fcntl.h>
 
 void execute_builtin_in_pipeline(char **args) {
     if (strcmp(args[0], "reveal") == 0) {
