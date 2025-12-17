@@ -1,6 +1,12 @@
 # Custom Shell Implementation
 
-A Unix-like shell written in C with support for built-in commands, piping, I/O redirection, background processes, signal handling, and job control.
+A POSIX-compliant Unix shell implementation in C featuring advanced process management, I/O redirection, pipelines, job control, and signal handling.
+
+## Technical Highlights
+- Implemented process group management for signal isolation (SIGINT, SIGTSTP, SIGCHLD)
+- Designed CFG-based parser tokenizing 7 operator types with syntax validation
+- Built multi-stage pipeline executor with proper file descriptor management using pipe() and dup2()
+- Developed job control system tracking PIDs, PGIDs, and process states (Running/Stopped)
 
 ## Features
 
@@ -195,9 +201,5 @@ These operators must be separated by spaces for proper parsing.
 - External commands are executed using `execvp()`
 - Signal modulo 32 arithmetic is applied for the `ping` command
 - The executable is named `shell.out` after compilation
-
-## Author
-
-dawnbliss-coder
 
 
