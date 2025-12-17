@@ -5,7 +5,7 @@
 #include <sys/wait.h>
 #include <unistd.h>
 
-process processes[100];
+//process processes[100];
 extern int process_count;
 extern int next_job_number;
 extern pid_t foreground_pgid ;
